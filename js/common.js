@@ -34,4 +34,18 @@ $(function() {
 		});
 	});
 
+	//jquery-match-height-presentation__top
+	$(function() {
+		$('.match-height-v').matchHeight();
+	});
+
+	//jquery-match-height-presentation__middle
+	$(function() {
+		$('.match-height-v').matchHeight();
+	});
+
+	$(function() {
+		$('.match-height-c').matchHeight();
+	});
+
 });

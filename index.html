@@ -1,177 +1,331 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+	<head>
 
-<head>
+		<meta charset="utf-8">
 
-	<meta charset="utf-8">
+		<title>Title</title>
+		<meta name="description" content="">
 
-	<title>Title</title>
-	<meta name="description" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<!-- Template Basic Images Start -->
+		<meta property="og:image" content="path/to/image.jpg">
+		<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+		<!-- Template Basic Images End -->
 
-	<!-- Template Basic Images Start -->
-	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
-	<!-- Template Basic Images End -->
+		<!-- Bootstrap (latest) Grid Styles Only -->
+		<style>html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}figure{margin:0}img{vertical-align:middle}.img-responsive{display:block;max-width:100%;height:auto}.img-rounded{border-radius:6px}.img-thumbnail{padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}.img-circle{border-radius:50%}hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}[role="button"]{cursor:pointer}.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}.row{margin-left:-15px;margin-right:-15px}.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{float:left}.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}.col-xs-pull-12{right:100%}.col-xs-pull-11{right:91.66666667%}.col-xs-pull-10{right:83.33333333%}.col-xs-pull-9{right:75%}.col-xs-pull-8{right:66.66666667%}.col-xs-pull-7{right:58.33333333%}.col-xs-pull-6{right:50%}.col-xs-pull-5{right:41.66666667%}.col-xs-pull-4{right:33.33333333%}.col-xs-pull-3{right:25%}.col-xs-pull-2{right:16.66666667%}.col-xs-pull-1{right:8.33333333%}.col-xs-pull-0{right:auto}.col-xs-push-12{left:100%}.col-xs-push-11{left:91.66666667%}.col-xs-push-10{left:83.33333333%}.col-xs-push-9{left:75%}.col-xs-push-8{left:66.66666667%}.col-xs-push-7{left:58.33333333%}.col-xs-push-6{left:50%}.col-xs-push-5{left:41.66666667%}.col-xs-push-4{left:33.33333333%}.col-xs-push-3{left:25%}.col-xs-push-2{left:16.66666667%}.col-xs-push-1{left:8.33333333%}.col-xs-push-0{left:auto}.col-xs-offset-12{margin-left:100%}.col-xs-offset-11{margin-left:91.66666667%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-0{margin-left:0}@media (min-width:768px){.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{float:left}.col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}.col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-2{width:16.66666667%}.col-sm-1{width:8.33333333%}.col-sm-pull-12{right:100%}.col-sm-pull-11{right:91.66666667%}.col-sm-pull-10{right:83.33333333%}.col-sm-pull-9{right:75%}.col-sm-pull-8{right:66.66666667%}.col-sm-pull-7{right:58.33333333%}.col-sm-pull-6{right:50%}.col-sm-pull-5{right:41.66666667%}.col-sm-pull-4{right:33.33333333%}.col-sm-pull-3{right:25%}.col-sm-pull-2{right:16.66666667%}.col-sm-pull-1{right:8.33333333%}.col-sm-pull-0{right:auto}.col-sm-push-12{left:100%}.col-sm-push-11{left:91.66666667%}.col-sm-push-10{left:83.33333333%}.col-sm-push-9{left:75%}.col-sm-push-8{left:66.66666667%}.col-sm-push-7{left:58.33333333%}.col-sm-push-6{left:50%}.col-sm-push-5{left:41.66666667%}.col-sm-push-4{left:33.33333333%}.col-sm-push-3{left:25%}.col-sm-push-2{left:16.66666667%}.col-sm-push-1{left:8.33333333%}.col-sm-push-0{left:auto}.col-sm-offset-12{margin-left:100%}.col-sm-offset-11{margin-left:91.66666667%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-0{margin-left:0}}@media (min-width:992px){.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}.col-md-pull-12{right:100%}.col-md-pull-11{right:91.66666667%}.col-md-pull-10{right:83.33333333%}.col-md-pull-9{right:75%}.col-md-pull-8{right:66.66666667%}.col-md-pull-7{right:58.33333333%}.col-md-pull-6{right:50%}.col-md-pull-5{right:41.66666667%}.col-md-pull-4{right:33.33333333%}.col-md-pull-3{right:25%}.col-md-pull-2{right:16.66666667%}.col-md-pull-1{right:8.33333333%}.col-md-pull-0{right:auto}.col-md-push-12{left:100%}.col-md-push-11{left:91.66666667%}.col-md-push-10{left:83.33333333%}.col-md-push-9{left:75%}.col-md-push-8{left:66.66666667%}.col-md-push-7{left:58.33333333%}.col-md-push-6{left:50%}.col-md-push-5{left:41.66666667%}.col-md-push-4{left:33.33333333%}.col-md-push-3{left:25%}.col-md-push-2{left:16.66666667%}.col-md-push-1{left:8.33333333%}.col-md-push-0{left:auto}.col-md-offset-12{margin-left:100%}.col-md-offset-11{margin-left:91.66666667%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-9{margin-left:75%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-6{margin-left:50%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-0{margin-left:0}}@media (min-width:1200px){.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{float:left}.col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}.col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}.col-lg-pull-12{right:100%}.col-lg-pull-11{right:91.66666667%}.col-lg-pull-10{right:83.33333333%}.col-lg-pull-9{right:75%}.col-lg-pull-8{right:66.66666667%}.col-lg-pull-7{right:58.33333333%}.col-lg-pull-6{right:50%}.col-lg-pull-5{right:41.66666667%}.col-lg-pull-4{right:33.33333333%}.col-lg-pull-3{right:25%}.col-lg-pull-2{right:16.66666667%}.col-lg-pull-1{right:8.33333333%}.col-lg-pull-0{right:auto}.col-lg-push-12{left:100%}.col-lg-push-11{left:91.66666667%}.col-lg-push-10{left:83.33333333%}.col-lg-push-9{left:75%}.col-lg-push-8{left:66.66666667%}.col-lg-push-7{left:58.33333333%}.col-lg-push-6{left:50%}.col-lg-push-5{left:41.66666667%}.col-lg-push-4{left:33.33333333%}.col-lg-push-3{left:25%}.col-lg-push-2{left:16.66666667%}.col-lg-push-1{left:8.33333333%}.col-lg-push-0{left:auto}.col-lg-offset-12{margin-left:100%}.col-lg-offset-11{margin-left:91.66666667%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-0{margin-left:0}}.clearfix:before,.clearfix:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after,.row:before,.row:after{content:" ";display:table}.clearfix:after,.container:after,.container-fluid:after,.row:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right !important}.pull-left{float:left !important}.hide{display:none !important}.show{display:block !important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none !important}.affix{position:fixed}@-ms-viewport{width:device-width}.visible-xs,.visible-sm,.visible-md,.visible-lg{display:none !important}.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block{display:none !important}@media (max-width:767px){.visible-xs{display:block !important}table.visible-xs{display:table !important}tr.visible-xs{display:table-row !important}th.visible-xs,td.visible-xs{display:table-cell !important}}@media (max-width:767px){.visible-xs-block{display:block !important}}@media (max-width:767px){.visible-xs-inline{display:inline !important}}@media (max-width:767px){.visible-xs-inline-block{display:inline-block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm{display:block !important}table.visible-sm{display:table !important}tr.visible-sm{display:table-row !important}th.visible-sm,td.visible-sm{display:table-cell !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-block{display:block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline{display:inline !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline-block{display:inline-block !important}}@media (min-width:992px) and (max-width:1199px){.visible-md{display:block !important}table.visible-md{display:table !important}tr.visible-md{display:table-row !important}th.visible-md,td.visible-md{display:table-cell !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-block{display:block !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline{display:inline !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline-block{display:inline-block !important}}@media (min-width:1200px){.visible-lg{display:block !important}table.visible-lg{display:table !important}tr.visible-lg{display:table-row !important}th.visible-lg,td.visible-lg{display:table-cell !important}}@media (min-width:1200px){.visible-lg-block{display:block !important}}@media (min-width:1200px){.visible-lg-inline{display:inline !important}}@media (min-width:1200px){.visible-lg-inline-block{display:inline-block !important}}@media (max-width:767px){.hidden-xs{display:none !important}}@media (min-width:768px) and (max-width:991px){.hidden-sm{display:none !important}}@media (min-width:992px) and (max-width:1199px){.hidden-md{display:none !important}}@media (min-width:1200px){.hidden-lg{display:none !important}}.visible-print{display:none !important}@media print{.visible-print{display:block !important}table.visible-print{display:table !important}tr.visible-print{display:table-row !important}th.visible-print,td.visible-print{display:table-cell !important}}.visible-print-block{display:none !important}@media print{.visible-print-block{display:block !important}}.visible-print-inline{display:none !important}@media print{.visible-print-inline{display:inline !important}}.visible-print-inline-block{display:none !important}@media print{.visible-print-inline-block{display:inline-block !important}}@media print{.hidden-print{display:none !important}}</style>
 
-	<!-- Bootstrap (latest) Grid Styles Only -->
-	<style>html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}figure{margin:0}img{vertical-align:middle}.img-responsive{display:block;max-width:100%;height:auto}.img-rounded{border-radius:6px}.img-thumbnail{padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}.img-circle{border-radius:50%}hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}[role="button"]{cursor:pointer}.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}.row{margin-left:-15px;margin-right:-15px}.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{float:left}.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}.col-xs-pull-12{right:100%}.col-xs-pull-11{right:91.66666667%}.col-xs-pull-10{right:83.33333333%}.col-xs-pull-9{right:75%}.col-xs-pull-8{right:66.66666667%}.col-xs-pull-7{right:58.33333333%}.col-xs-pull-6{right:50%}.col-xs-pull-5{right:41.66666667%}.col-xs-pull-4{right:33.33333333%}.col-xs-pull-3{right:25%}.col-xs-pull-2{right:16.66666667%}.col-xs-pull-1{right:8.33333333%}.col-xs-pull-0{right:auto}.col-xs-push-12{left:100%}.col-xs-push-11{left:91.66666667%}.col-xs-push-10{left:83.33333333%}.col-xs-push-9{left:75%}.col-xs-push-8{left:66.66666667%}.col-xs-push-7{left:58.33333333%}.col-xs-push-6{left:50%}.col-xs-push-5{left:41.66666667%}.col-xs-push-4{left:33.33333333%}.col-xs-push-3{left:25%}.col-xs-push-2{left:16.66666667%}.col-xs-push-1{left:8.33333333%}.col-xs-push-0{left:auto}.col-xs-offset-12{margin-left:100%}.col-xs-offset-11{margin-left:91.66666667%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-0{margin-left:0}@media (min-width:768px){.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{float:left}.col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}.col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-2{width:16.66666667%}.col-sm-1{width:8.33333333%}.col-sm-pull-12{right:100%}.col-sm-pull-11{right:91.66666667%}.col-sm-pull-10{right:83.33333333%}.col-sm-pull-9{right:75%}.col-sm-pull-8{right:66.66666667%}.col-sm-pull-7{right:58.33333333%}.col-sm-pull-6{right:50%}.col-sm-pull-5{right:41.66666667%}.col-sm-pull-4{right:33.33333333%}.col-sm-pull-3{right:25%}.col-sm-pull-2{right:16.66666667%}.col-sm-pull-1{right:8.33333333%}.col-sm-pull-0{right:auto}.col-sm-push-12{left:100%}.col-sm-push-11{left:91.66666667%}.col-sm-push-10{left:83.33333333%}.col-sm-push-9{left:75%}.col-sm-push-8{left:66.66666667%}.col-sm-push-7{left:58.33333333%}.col-sm-push-6{left:50%}.col-sm-push-5{left:41.66666667%}.col-sm-push-4{left:33.33333333%}.col-sm-push-3{left:25%}.col-sm-push-2{left:16.66666667%}.col-sm-push-1{left:8.33333333%}.col-sm-push-0{left:auto}.col-sm-offset-12{margin-left:100%}.col-sm-offset-11{margin-left:91.66666667%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-0{margin-left:0}}@media (min-width:992px){.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}.col-md-pull-12{right:100%}.col-md-pull-11{right:91.66666667%}.col-md-pull-10{right:83.33333333%}.col-md-pull-9{right:75%}.col-md-pull-8{right:66.66666667%}.col-md-pull-7{right:58.33333333%}.col-md-pull-6{right:50%}.col-md-pull-5{right:41.66666667%}.col-md-pull-4{right:33.33333333%}.col-md-pull-3{right:25%}.col-md-pull-2{right:16.66666667%}.col-md-pull-1{right:8.33333333%}.col-md-pull-0{right:auto}.col-md-push-12{left:100%}.col-md-push-11{left:91.66666667%}.col-md-push-10{left:83.33333333%}.col-md-push-9{left:75%}.col-md-push-8{left:66.66666667%}.col-md-push-7{left:58.33333333%}.col-md-push-6{left:50%}.col-md-push-5{left:41.66666667%}.col-md-push-4{left:33.33333333%}.col-md-push-3{left:25%}.col-md-push-2{left:16.66666667%}.col-md-push-1{left:8.33333333%}.col-md-push-0{left:auto}.col-md-offset-12{margin-left:100%}.col-md-offset-11{margin-left:91.66666667%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-9{margin-left:75%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-6{margin-left:50%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-0{margin-left:0}}@media (min-width:1200px){.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{float:left}.col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}.col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}.col-lg-pull-12{right:100%}.col-lg-pull-11{right:91.66666667%}.col-lg-pull-10{right:83.33333333%}.col-lg-pull-9{right:75%}.col-lg-pull-8{right:66.66666667%}.col-lg-pull-7{right:58.33333333%}.col-lg-pull-6{right:50%}.col-lg-pull-5{right:41.66666667%}.col-lg-pull-4{right:33.33333333%}.col-lg-pull-3{right:25%}.col-lg-pull-2{right:16.66666667%}.col-lg-pull-1{right:8.33333333%}.col-lg-pull-0{right:auto}.col-lg-push-12{left:100%}.col-lg-push-11{left:91.66666667%}.col-lg-push-10{left:83.33333333%}.col-lg-push-9{left:75%}.col-lg-push-8{left:66.66666667%}.col-lg-push-7{left:58.33333333%}.col-lg-push-6{left:50%}.col-lg-push-5{left:41.66666667%}.col-lg-push-4{left:33.33333333%}.col-lg-push-3{left:25%}.col-lg-push-2{left:16.66666667%}.col-lg-push-1{left:8.33333333%}.col-lg-push-0{left:auto}.col-lg-offset-12{margin-left:100%}.col-lg-offset-11{margin-left:91.66666667%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-0{margin-left:0}}.clearfix:before,.clearfix:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after,.row:before,.row:after{content:" ";display:table}.clearfix:after,.container:after,.container-fluid:after,.row:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right !important}.pull-left{float:left !important}.hide{display:none !important}.show{display:block !important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none !important}.affix{position:fixed}@-ms-viewport{width:device-width}.visible-xs,.visible-sm,.visible-md,.visible-lg{display:none !important}.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block{display:none !important}@media (max-width:767px){.visible-xs{display:block !important}table.visible-xs{display:table !important}tr.visible-xs{display:table-row !important}th.visible-xs,td.visible-xs{display:table-cell !important}}@media (max-width:767px){.visible-xs-block{display:block !important}}@media (max-width:767px){.visible-xs-inline{display:inline !important}}@media (max-width:767px){.visible-xs-inline-block{display:inline-block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm{display:block !important}table.visible-sm{display:table !important}tr.visible-sm{display:table-row !important}th.visible-sm,td.visible-sm{display:table-cell !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-block{display:block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline{display:inline !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline-block{display:inline-block !important}}@media (min-width:992px) and (max-width:1199px){.visible-md{display:block !important}table.visible-md{display:table !important}tr.visible-md{display:table-row !important}th.visible-md,td.visible-md{display:table-cell !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-block{display:block !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline{display:inline !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline-block{display:inline-block !important}}@media (min-width:1200px){.visible-lg{display:block !important}table.visible-lg{display:table !important}tr.visible-lg{display:table-row !important}th.visible-lg,td.visible-lg{display:table-cell !important}}@media (min-width:1200px){.visible-lg-block{display:block !important}}@media (min-width:1200px){.visible-lg-inline{display:inline !important}}@media (min-width:1200px){.visible-lg-inline-block{display:inline-block !important}}@media (max-width:767px){.hidden-xs{display:none !important}}@media (min-width:768px) and (max-width:991px){.hidden-sm{display:none !important}}@media (min-width:992px) and (max-width:1199px){.hidden-md{display:none !important}}@media (min-width:1200px){.hidden-lg{display:none !important}}.visible-print{display:none !important}@media print{.visible-print{display:block !important}table.visible-print{display:table !important}tr.visible-print{display:table-row !important}th.visible-print,td.visible-print{display:table-cell !important}}.visible-print-block{display:none !important}@media print{.visible-print-block{display:block !important}}.visible-print-inline{display:none !important}@media print{.visible-print-inline{display:inline !important}}.visible-print-inline-block{display:none !important}@media print{.visible-print-inline-block{display:inline-block !important}}@media print{.hidden-print{display:none !important}}</style>
+		<!-- Header CSS (first screen styles from header.min.css) - inserted in the build of the project -->
+		<style>.buy,.buy:hover,.buy:link,a{text-decoration:none}.buy,.toggle-mnu{vertical-align:middle}::-webkit-input-placeholder{color:#666;opacity:1}:-moz-placeholder{color:#666;opacity:1}::-moz-placeholder{color:#666;opacity:1}:-ms-input-placeholder{color:#666;opacity:1}body,html{width:100%;height:100%;font-size:16px}body input:focus:required:invalid,body input:required:valid,body textarea:focus:required:invalid,body textarea:required:valid{color:#666}.buy,.buy:hover,.buy:link,.buy:visited,.description{color:#fff}body{min-width:320px;position:relative;line-height:1.6;font-family:OpenSans,sans-serif;overflow-x:hidden}ul{margin:0;padding:0;list-style:none}.buy{border:none;outline:0;-webkit-border-radius:22px;border-radius:22px;padding:12px 30px;-webkit-transition:all .1s ease;transition:all .1s ease}.buy:hover{-webkit-box-shadow:0 0 15px #f9f9f4;box-shadow:0 0 15px #f9f9f4}.buy:active{-webkit-box-shadow:none;box-shadow:none}.achievements{background:#f4f8fb}.header__top{padding-top:44px;padding-bottom:222px;background:url(img/header-top-bg.jpg) center no-repeat #232831;background-size:cover}.header__top__logo{padding-left:84px}.header__top__logo a{display:block;width:63px}.header__top__logo a img{width:100%}.header__top__form{padding-top:17px;padding-right:84px;padding-bottom:17px;font-size:.875rem;text-align:right;color:#9da5b0}.header__top__form form{display:inline-block}.header__top__form .position__wrap{position:relative;display:inline-block;margin-right:10px}.header__top__form input[type=search]{font-size:.875rem;width:192px;padding:11px 40px 11px 30px;border:none;outline:0;-webkit-border-radius:22px;border-radius:22px;font-family:OpenSans;vertical-align:middle;background-color:#343c48}.header__top__form input[type=search]::-webkit-input-placeholder{font-family:OpenSans;font-size:.875rem;color:#9da5b0}.header__top__form input[type=search]::-moz-placeholder{font-family:OpenSans;font-size:.875rem;color:#9da5b0}.header__top__form input[type=search]:-ms-input-placeholder{font-family:OpenSans;font-size:.875rem;color:#9da5b0}.header__top__form input[type=search]::placeholder{font-family:OpenSans;font-size:.875rem;color:#9da5b0}.header__bottom .header__bottom__h2,.header__top__h1{font-family:OpenSansLight;font-weight:300;color:#fff}.header__top__form input[type=submit]{position:absolute;top:50%;margin-top:-12px;right:16px;display:block;width:24px;height:24px;border:none;background:url(img/fa-search.svg) center no-repeat}.header__top__form .header__top_buy{background-color:#835fa8}.toggle-mnu{display:inline-block;width:18px;height:15px;margin-left:20px}.toggle-mnu span::after,.toggle-mnu span::before{content:"";position:absolute;left:0;top:6px}.toggle-mnu span::after{top:12px}.toggle-mnu span{position:relative;display:block}.toggle-mnu span,.toggle-mnu span::after,.toggle-mnu span::before{width:100%;height:3px;background-color:#f9f9f4;-webkit-transition:all .3s;transition:all .3s;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-border-radius:2px;border-radius:2px}.toggle-mnu.on span{background-color:transparent}.toggle-mnu.on span::before{-webkit-transform:rotate(45deg) translate(-1px,0);-ms-transform:rotate(45deg) translate(-1px,0);transform:rotate(45deg) translate(-1px,0)}.toggle-mnu.on span::after{-webkit-transform:rotate(-45deg) translate(4px,-5px);-ms-transform:rotate(-45deg) translate(4px,-5px);transform:rotate(-45deg) translate(4px,-5px)}.header__top__h1_wrap{float:right;width:700px;margin-top:240px;margin-right:55px}.header__top__h1{margin-top:0;margin-bottom:0;font-size:4.375rem;line-height:5.625rem}.header__top__h1_desc{margin-top:23px;font-size:1.125rem;font-weight:300;line-height:1.875rem}.header__bottom{padding-top:90px;background:#835fa8}.header__bottom .header__bottom_wrap{position:relative;padding-bottom:219px}.header__bottom .header__bottom__bg{position:absolute;width:660px;right:15px;bottom:0}.header__bottom .header__bottom__h2{margin-top:0;margin-bottom:15px;font-size:2.5rem;line-haight:5.625rem}.header__bottom .header__bottom__p_desc{margin-top:0;margin-bottom:45px}.header__bottom .header__bottom_buy{padding-right:50px;padding-left:50px;font-size:14;background:#3dd2ae}</style>
 
-	<!-- Header CSS (first screen styles from header.min.css) - inserted in the build of the project -->
-	<style>.buy,.buy:hover,.buy:link,a{text-decoration:none}.buy,.toggle-mnu{vertical-align:middle}::-webkit-input-placeholder{color:#666;opacity:1}:-moz-placeholder{color:#666;opacity:1}::-moz-placeholder{color:#666;opacity:1}:-ms-input-placeholder{color:#666;opacity:1}body,html{width:100%;height:100%;font-size:16px}body input:focus:required:invalid,body input:required:valid,body textarea:focus:required:invalid,body textarea:required:valid{color:#666}.buy,.buy:hover,.buy:link,.buy:visited,.description{color:#fff}body{min-width:320px;position:relative;line-height:1.6;font-family:OpenSans,sans-serif;overflow-x:hidden}ul{margin:0;padding:0;list-style:none}.buy{border:none;outline:0;-webkit-border-radius:22px;border-radius:22px;padding:12px 30px;-webkit-transition:all .1s ease;transition:all .1s ease}.buy:hover{-webkit-box-shadow:0 0 15px #f9f9f4;box-shadow:0 0 15px #f9f9f4}.buy:active{-webkit-box-shadow:none;box-shadow:none}.achievements{background:#f4f8fb}.header__top{padding-top:44px;padding-bottom:222px;background:url(img/header-top-bg.jpg) center no-repeat #232831;background-size:cover}.header__top__logo{padding-left:84px}.header__top__logo a{display:block;width:63px}.header__top__logo a img{width:100%}.header__top__form{padding-top:17px;padding-right:84px;padding-bottom:17px;font-size:.875rem;text-align:right;color:#9da5b0}.header__top__form form{display:inline-block}.header__top__form .position__wrap{position:relative;display:inline-block;margin-right:10px}.header__top__form input[type=search]{font-size:.875rem;width:192px;padding:11px 40px 11px 30px;border:none;outline:0;-webkit-border-radius:22px;border-radius:22px;font-family:OpenSans;vertical-align:middle;background-color:#343c48}.header__top__form input[type=search]::-webkit-input-placeholder{font-family:OpenSans;font-size:.875rem;color:#9da5b0}.header__top__form input[type=search]::-moz-placeholder{font-family:OpenSans;font-size:.875rem;color:#9da5b0}.header__top__form input[type=search]:-ms-input-placeholder{font-family:OpenSans;font-size:.875rem;color:#9da5b0}.header__top__form input[type=search]::placeholder{font-family:OpenSans;font-size:.875rem;color:#9da5b0}.header__bottom .header__bottom__h2,.header__top__h1{font-family:OpenSansLight;font-weight:300;color:#fff}.header__top__form input[type=submit]{position:absolute;top:50%;margin-top:-12px;right:16px;display:block;width:24px;height:24px;border:none;background:url(img/fa-search.svg) center no-repeat}.header__top__form .header__top_buy{background-color:#835fa8}.toggle-mnu{display:inline-block;width:18px;height:15px;margin-left:20px}.toggle-mnu span::after,.toggle-mnu span::before{content:"";position:absolute;left:0;top:6px}.toggle-mnu span::after{top:12px}.toggle-mnu span{position:relative;display:block}.toggle-mnu span,.toggle-mnu span::after,.toggle-mnu span::before{width:100%;height:3px;background-color:#f9f9f4;-webkit-transition:all .3s;transition:all .3s;-webkit-backface-visibility:hidden;backface-visibility:hidden;-webkit-border-radius:2px;border-radius:2px}.toggle-mnu.on span{background-color:transparent}.toggle-mnu.on span::before{-webkit-transform:rotate(45deg) translate(-1px,0);-ms-transform:rotate(45deg) translate(-1px,0);transform:rotate(45deg) translate(-1px,0)}.toggle-mnu.on span::after{-webkit-transform:rotate(-45deg) translate(4px,-5px);-ms-transform:rotate(-45deg) translate(4px,-5px);transform:rotate(-45deg) translate(4px,-5px)}.header__top__h1_wrap{float:right;width:700px;margin-top:240px;margin-right:55px}.header__top__h1{margin-top:0;margin-bottom:0;font-size:4.375rem;line-height:5.625rem}.header__top__h1_desc{margin-top:23px;font-size:1.125rem;font-weight:300;line-height:1.875rem}.header__bottom{padding-top:90px;background:#835fa8}.header__bottom .header__bottom_wrap{position:relative;padding-bottom:219px}.header__bottom .header__bottom__bg{position:absolute;width:660px;right:15px;bottom:0}.header__bottom .header__bottom__h2{margin-top:0;margin-bottom:15px;font-size:2.5rem;line-haight:5.625rem}.header__bottom .header__bottom__p_desc{margin-top:0;margin-bottom:45px}.header__bottom .header__bottom_buy{padding-right:50px;padding-left:50px;font-size:14;background:#3dd2ae}</style>
+		<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+		<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)};function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n};function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
 
-	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
-	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)};function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n};function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+		<!-- Load Fonts CSS Start -->
+		<script>
+			loadCSS( "css/fonts.min.css?ver=1.0.0", false, "all" ); // Loading fonts, if the site is located in a subfolder
+			// loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" ); // Loading fonts, if the site is at the root
+		</script>
+		<!-- Load Fonts CSS End -->
 
-	<!-- Load Fonts CSS Start -->
-	<script>
-		loadCSS( "css/fonts.min.css?ver=1.0.0", false, "all" ); // Loading fonts, if the site is located in a subfolder
-		// loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" ); // Loading fonts, if the site is at the root
-	</script>
-	<!-- Load Fonts CSS End -->
+		<!-- Load Custom CSS Start -->
+		
+		<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>
+		<!-- Load Custom CSS End -->
 
-	<!-- Load Custom CSS Start -->
-	
-	<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>
-	<!-- Load Custom CSS End -->
+		<!-- Load Custom CSS Compiled without JS Start -->
+		<noscript>
+			<link rel="stylesheet" href="css/fonts.min.css">
+			<link rel="stylesheet" href="css/main.min.css">
+		</noscript>
+		<!-- Load Custom CSS Compiled without JS End -->
 
-	<!-- Load Custom CSS Compiled without JS Start -->
-	<noscript>
-		<link rel="stylesheet" href="css/fonts.min.css">
-		<link rel="stylesheet" href="css/main.min.css">
-	</noscript>
-	<!-- Load Custom CSS Compiled without JS End -->
+		<!-- Custom Browsers Color Start -->
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#000">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#000">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+		<!-- Custom Browsers Color End -->
 
-	<!-- Custom Browsers Color Start -->
-	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#000">
-	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#000">
-	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
-	<!-- Custom Browsers Color End -->
+	</head>
 
-</head>
+	<body>
 
-<body>
+		<!-- Custom HTML -->
 
-	<!-- Custom HTML -->
+	<!--——————————————— header ———————————————-->
 
-<!--——————————————— header ———————————————-->
-
-	<header class="header">
-		<div class="header__top">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="header__top__logo col-lg-2 col-md-2 col-sm-2 col-xs-2">
-						<a href="#">
-							<img src="img/logo.svg" alt="logo">
-						</a>
-					</div>
-					<div class="header__top__form col-lg-10 col-md-10 col-sm-10 col-xs-10">
-						<form class="clearfix" action="/echo" method="post">
-							<div class="position__wrap">
-								<input type="search" placeholder="Search website">
-								<input type="submit" value="">
-							</div>
-						</form>
-						<a href="#" class="buy header__top_buy" alt="Buy">Buy <span>$21</span></a>
-						<a href="#" class="toggle-mnu" alt="Toggle"><span></span></a>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="header__top__h1_wrap">
-						<h1 class="header__top__h1 col-lg-12">Building bulletproof<br>fucking apps</h1>
-						<p class="description header__top__h1_desc col-lg-12">Kickstarter umami Intelligentsia kogi. Try-hard flannel literally,<br> chambray blog crucifix put a bird on it four dollar toast cardigan</p>
+		<header class="header">
+			<div class="header__top">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="header__top__logo col-lg-2 col-md-2 col-sm-2 col-xs-2">
+							<a href="#">
+								<img src="img/logo.svg" alt="logo">
+							</a>
+						</div>
+						<div class="header__top__form col-lg-10 col-md-10 col-sm-10 col-xs-10">
+							<form class="clearfix" action="/echo" method="post">
+								<div class="position__wrap">
+									<input type="search" placeholder="Search website">
+									<input type="submit" value="">
+								</div>
+							</form>
+							<a href="#" class="buy header__top_buy" alt="Buy">Buy <span>$21</span></a>
+							<a href="#" class="toggle-mnu" alt="Toggle"><span></span></a>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="header__bottom">
-			<div class="container">
-				<div class="row">
-					<div class="header__bottom_wrap col-lg-12">
-						<h2 class="header__bottom__h2">Super Duper &amp; such</h2>
-						<p class="description header__bottom__p_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed<br> do eiusmod tempor incididunt ut labore et dolore magna.</p>
-						<a href="#" class="buy header__bottom_buy">See More</a>
-						<div class="header__bottom__bg">
-							<img src="img/header-bottom-bg.png" style="width: 100%" alt="header bottom background">
+				<div class="container">
+					<div class="row">
+						<div class="header__top__h1_wrap">
+							<h1 class="header__top__h1 col-lg-12">Building bulletproof<br>fucking apps</h1>
+							<p class="description header__top__h1_desc col-lg-12">Kickstarter umami Intelligentsia kogi. Try-hard flannel literally,<br> chambray blog crucifix put a bird on it four dollar toast cardigan</p>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</header>
-
-<!--——————————————— achievements ———————————————-->
-
-	<section class="achievements">
-		<div class="tongue">&uarr;&darr;</div>
-		<div class="container">
-			<row>
-				<ul class="achiev col-lg-12 col-md-12 col-sm-12 equalize">
-					<li class="achiev__item col-lg-4 col-md-4 eq" id="achiev__item_col1">
-						<h3>Design &amp; Features</h3>
-						<p class="title">Flannel ennui narwhal, craft beer twee Vice plaid authentic synth.</p>
-						<p class="desc">Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan scenester aesthetic sartorial chia messenger bag Pinterest. </p>
-						<a href="#" class="buy">See More</a>
-					</li>
-					<li class="achiev__item col-lg-4 col-md-4 eq" id="achiev__item_col2">
-						<h3>Pocket Power</h3>
-						<p class="title">Flannel ennui narwhal, craft beer twee Vice plaid authentic synth.</p>
-						<p class="desc">Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan scenester aesthetic sartorial chia messenger bag Pinterest. </p>
-						<a href="#" class="buy">Buy Now</a>
-					</li>
-					<li class="achiev__item col-lg-4 col-md-4 eq" id="achiev__item_col3">
-						<h3>Inspired by the world</h3>
-						<p class="title">Flannel ennui narwhal, craft beer twee Vice plaid authentic synth.</p>
-						<p class="desc">Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan scenester aesthetic sartorial chia messenger bag Pinterest.</p>
-						<a href="#" class="buy">Contact Us</a>
-					</li>
-				</ul>
-			</row>
-		</div>
-	</section>
-
-<!--——————————————— designed ———————————————-->
-
-	<section class="designed">
-		<div class="desibned__top">
-			<div class="container">
-				<div class="row">
-					<h2>Designed for humans</h2>
-					<p class="desc">Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan scenester aesthetic sartorial chia messenger bag Pinterest. 3 wolf moon Thundercats Banksy paleo, yr four loko Shoreditch dreamcatcher. </p>
+			<div class="header__bottom">
+				<div class="container">
+					<div class="row">
+						<div class="header__bottom_wrap col-lg-12">
+							<h2 class="header__bottom__h2">Super Duper &amp; such</h2>
+							<p class="description header__bottom__p_desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed<br> do eiusmod tempor incididunt ut labore et dolore magna.</p>
+							<a href="#" class="buy header__bottom_buy">See More</a>
+							<div class="header__bottom__bg">
+								<img src="img/header-bottom-bg.png" style="width: 100%" alt="header bottom background">
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="designed__bottom">
-			
-		</div>
-	</section>
+		</header>
 
+	<!--——————————————— achievements ———————————————-->
 
+		<section class="achievements">
+			<div class="tongue">&uarr;&darr;</div>
+			<div class="container">
+				<row>
+					<ul class="achiev col-lg-12 col-md-12 col-sm-12 equalize">
+						<li class="achiev__item col-lg-4 col-md-4 eq" id="achiev__item_col1">
+							<h3>Design &amp; Features</h3>
+							<p class="title">Flannel ennui narwhal, craft beer twee Vice plaid authentic synth.</p>
+							<p class="desc">Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan scenester aesthetic sartorial chia messenger bag Pinterest. </p>
+							<a href="#" class="buy">See More</a>
+						</li>
+						<li class="achiev__item col-lg-4 col-md-4 eq" id="achiev__item_col2">
+							<h3>Pocket Power</h3>
+							<p class="title">Flannel ennui narwhal, craft beer twee Vice plaid authentic synth.</p>
+							<p class="desc">Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan scenester aesthetic sartorial chia messenger bag Pinterest. </p>
+							<a href="#" class="buy">Buy Now</a>
+						</li>
+						<li class="achiev__item col-lg-4 col-md-4 eq" id="achiev__item_col3">
+							<h3>Inspired by the world</h3>
+							<p class="title">Flannel ennui narwhal, craft beer twee Vice plaid authentic synth.</p>
+							<p class="desc">Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan scenester aesthetic sartorial chia messenger bag Pinterest.</p>
+							<a href="#" class="buy">Contact Us</a>
+						</li>
+					</ul>
+				</row>
+			</div>
+		</section>
 
+	<!--——————————————— designed ———————————————-->
 
+		<section class="designed">
+			<div class="desibned__top">
+				<div class="container">
+					<div class="row">
+						<h2 class="col-lg-12">Designed for humans</h2>
+						<p class="desc col-lg-12">Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan scenester aesthetic sartorial chia messenger bag Pinterest. 3 wolf moon Thundercats Banksy paleo, yr four loko Shoreditch dreamcatcher. </p>
+					</div>
+					<div class="designed__top__slider col-lg-10 col-lg-offset-1 col-md-12 col-sm-12">
+						<div class="top">
+							<a href="#"></a>
+							<a href="#"></a>
+							<a href="#"></a>
+						</div>
+						<div class="body">
+							<img src="img/slider-img1.jpg" alt="Слайд 1">
+							<div class="title">Design win</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="designed__bottom">
+				<div class="container">
+					<div class="row">
+						<div class="designed__bottom__col1 designed__bottom__col_bg col-lg-3 col-md-3 col-sm-6">
+							<svg viewBox="0 0 46 46" width="46" height="46">
+								<use xlink:href="img/design-sprite.svg#spr1"></use>
+							</svg>
+							<div class="title"><span>01</span>Design</div>
+							<p>Scenester PBR deep v jean shorts typewriter. Sustainable keytar Tumblr, authentic mustache locavore scenester gentrify meh banjo fanny pack health goth. Four dollar toast scenester XOXO crucifix, mumblecore banh mi yr cold-pressed Bushwick.</p>
+						</div>
+						<div class="designed__bottom__col2 designed__bottom__col_bg col-lg-3 col-md-3 col-sm-6">
+							<svg viewBox="46 0 46 46" width="46" height="46">
+								<use xlink:href="img/design-sprite.svg#spr2"></use>
+							</svg>
+							<div class="title"><span>02</span>Refinement</div>
+							<p>Pickled 8-bit tousled health goth farm-to-table Pitchfork, lumbersexual church-key photo booth Blue Bottle. Aesthetic viral American Apparel, scenester distillery iPhone 8-bit tousled ugh ethical pork belly biodiesel street art asymmetrical whatever.</p>
+						</div>
+						<div class="designed__bottom__col3 designed__bottom__col_bg col-lg-3 col-md-3 col-sm-6">
+							<svg viewBox="92 0 56 46" width="56" height="46">
+								<use xlink:href="img/design-sprite.svg#spr3"></use>
+							</svg>
+							<div class="title"><span>03</span>Dive In</div>
+							<p>Cliche Intelligentsia church-key, gluten-free drinking vinegar keffiyeh cornhole next level shabby chic plaid tattooed. Helvetica post-ironic raw denim tousled listicle.</p>
+						</div>
+						<div class="designed__bottom__col4 designed__bottom__col_bg col-lg-3 col-md-3 col-sm-6">
+							<svg viewBox="148 0 46 46" width="46" height="46">
+								<use xlink:href="img/design-sprite.svg#spr4"></use>
+							</svg>
+							<div class="title"><span>04</span>Research</div>
+							<p>Raw denim health goth artisan, kitsch literally shabby chic meh small batch Wes Anderson retro Neutra. Blog meggings semiotics, irony swag cred kale chips aesthetic literally VHS craft beer chia. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
+	<!--——————————————— presentation ———————————————-->
 
+		<section class="presentation">
+			<div class="presentation__top">
+				<div class="container">
+					<div class="row">
+						<div class="pres1 col-lg-6 col-md-6 col-sm-12">
+							<h4>
+								<span>
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="43" height="31" viewBox="0 0 43 31">
+									  <defs>
+										<style>
+										  .cls-1 {
+											fill: #835fa8;
+											fill-rule: evenodd;
+										  }
+										</style>
+									  </defs>
+									  <path d="M39.535,19.244 C39.783,18.295 39.929,17.304 39.929,16.275 C39.929,9.855 34.772,4.650 28.411,4.650 C26.776,4.650 25.223,4.999 23.814,5.619 C22.401,2.315 19.149,0.000 15.357,0.000 C10.268,0.000 6.143,4.164 6.143,9.300 C6.143,9.646 6.207,9.974 6.244,10.310 C2.561,12.031 0.000,15.785 0.000,20.150 C0.000,26.143 4.813,31.000 10.750,31.000 L36.857,31.000 C40.250,31.000 43.000,28.224 43.000,24.800 C43.000,22.350 41.580,20.252 39.535,19.244 ZM36.857,29.450 L10.750,29.450 C5.670,29.450 1.536,25.278 1.536,20.150 C1.536,16.546 3.637,13.236 6.889,11.716 L7.890,11.249 L7.771,10.141 C7.758,10.025 7.743,9.911 7.727,9.797 C7.705,9.633 7.679,9.470 7.679,9.300 C7.679,5.026 11.123,1.550 15.357,1.550 C18.421,1.550 21.187,3.388 22.404,6.233 L23.016,7.661 L24.428,7.040 C25.694,6.483 27.034,6.200 28.411,6.200 C33.915,6.200 38.393,10.719 38.393,16.275 C38.393,17.113 38.277,17.979 38.050,18.849 L37.729,20.079 L38.862,20.637 C40.467,21.428 41.464,23.023 41.464,24.800 C41.464,27.365 39.398,29.450 36.857,29.450 ZM22.268,22.088 L22.268,10.850 L20.732,10.850 L20.732,22.088 L16.509,17.825 L15.741,18.988 L21.500,24.800 L27.259,18.988 L26.491,17.825 L22.268,22.088 Z" class="cls-1"/>
+									</svg>
+								</span>Conectivity</h4>
+							<p class="title">Flannel ennui narwhal, craft beer twee Vice plaid authentic synth Intelligentsia stumptown gluten-free drinking vinegar Schlitz mixtape. </p>
+							<p class="text">Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan scenester aesthetic sartorial chia messenger bag Pinterest. 3 wolf moon Thundercats Banksy paleo, yr four loko Shoreditch dreamcatcher. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="presentation__middle">
+				<div class="container">
+					<div class="row">
+						<div class="video col-lg-6 col-md-6 col-sm-12 match-height-v">
+							<video id="video" width="100%" height="100%" controls="controls">
+								<source src="files/xfactor.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+							</video>
+							<button id="button"></button>
+						</div>
+						<div class="post col-lg-6 col-md-6 col-sm-12 match-height-v">
+							<time datetime="2015-07-12">12th June 2015</time>
+							<date></date>
+							<p class="title">Lorem ipsum dolor sit amet, cotur adipisicing elit sed do eiusmod
+	tempor incididunt ut labore et dolore</p>
+							<p class="autor">Blaz Robar</p>
+							<a href="#">Latest News</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="coment col-lg-6 col-md-6 col-sm-12 match-height-c">
+							<p class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+							<p class="comments">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea </p>
+							<div class="statistic"><span>92</span>Comments</div>
+						</div>
+						<div class="capture col-lg-6 col-md-6 col-sm-12 match-height-c"></div>
+					</div>
+				</div>
+			</div>
+			<div class="presentation__bottom">
+				<div class="container">
+					<div class="row">
+						<div class="post2 col-lg-6 col-md-6 col-sm-12">
+							<p class="title">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Nisi ut aliquip ex ea commodo.</p>
+							<p class="autor">Blaz Robar</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
+	<!--——————————————— footer ———————————————-->
 
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="footer__left col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<span class="title">Get in touch</span>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+								<ul>
+									<li>Resources</li>
+									<li><a>Tour</a></li>
+									<li><a>Customers</a></li>
+									<li><a>Pricing and Plans</a></li>
+									<li><a>New Features</a></li>
+									<li><a>Education</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+								<ul>
+									<li>Resources</li>
+									<li><a>Tour</a></li>
+									<li><a>Customers</a></li>
+									<li><a>Pricing and Plans</a></li>
+									<li><a>New Features</a></li>
+									<li><a>Education</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+								<ul>
+									<li>Resources</li>
+									<li><a>Tour</a></li>
+									<li><a>Customers</a></li>
+									<li><a>Pricing and Plans</a></li>
+									<li><a>New Features</a></li>
+									<li><a>Education</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footer__right col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="support">
+							<span class="title">Get in touch</span>
+							<form action="">
+								<input type="text">
+							</form>
+							<p>We don’t send spam. Actually, who are we kiding, we’ll spam<br>
+							the shit out of you’r inbox</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 
+		<!-- Optimized loading JS Start -->
+		<script>var scr = {"scripts":[
+			{"src" : "js/libs.min.js", "async" : false},
+			{"src" : "js/common.js", "async" : false}
+			]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+		</script>
+		<!-- Optimized loading JS End -->
 
-	<!-- Optimized loading JS Start -->
-	<script>var scr = {"scripts":[
-		{"src" : "js/libs.min.js", "async" : false},
-		{"src" : "js/common.js", "async" : false}
-		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
-	</script>
-	<!-- Optimized loading JS End -->
-
-</body>
+	</body>
 </html>
